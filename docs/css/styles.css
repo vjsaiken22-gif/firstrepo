@@ -12,13 +12,13 @@ body {
     padding: 20px;
 }
 
-/* Center content */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Make image responsive */
+
 img {
     max-width: 100%;
     height: auto;
@@ -26,7 +26,7 @@ img {
     margin: 10px 0;
 }
 
-/* || Card Styling */
+
 .card {
     background: #ffffff;
     padding: 20px;
@@ -35,7 +35,7 @@ img {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* || Typography */
+
 h1 {
     text-align: center;
     margin-bottom: 10px;
@@ -51,7 +51,7 @@ ul {
     margin-bottom: 10px;
 }
 
-/* || Links */
+
 a {
     text-decoration: none;
     color: #0077cc;
@@ -61,7 +61,7 @@ a:hover {
     color: #005fa3;
 }
 
-/* || Table */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -78,7 +78,7 @@ th {
     color: white;
 }
 
-/* || Form */
+
 form {
     display: flex;
     flex-direction: column;
@@ -104,23 +104,23 @@ button:hover {
     background-color: #005fa3;
 }
 
-/* || DARK MODE */
+
 .dark-mode {
     background-color: #121212;
     color: white;
 }
 
-/* Dark mode cards */
+
 .dark-mode .card {
     background-color: #1e1e1e;
 }
 
-/* Dark mode table header */
+
 .dark-mode th {
     background-color: #333;
 }
 
-/* || HIDDEN ELEMENT */
+
 .hidden {
     display: none;
 }
