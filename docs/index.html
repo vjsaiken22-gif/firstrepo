@@ -11,19 +11,21 @@
     <section>
         <h1>Vanley John B. Monares</h1>
         <p>IT Student | Web Systems and Technologies</p>
+
+        >
+        <button id="themeToggle">Toggle Dark Mode</button>
     </section>
 </header>
 
 <main>
-    <div class="container">
-        <!-- All your sections go here -->
-    </div>
+
     <section class="card">
         <h2>About Me</h2>
         <p>I am a BS Information Technology student learning the fundamentals of web development,
             focusing on HTML structure and semantic design.</p>
 
         <img src="images/profile.jpg" alt="Profile photo">
+
         <p>
             Email:
             <a href="mailto:vjsaiken22@gmail.com">vjsaiken22@gmail.com</a><br>
@@ -33,7 +35,11 @@
             </a>
         </p>
     </section>
-    <section class="card">
+
+    
+    <button id="toggleSkills">Show/Hide Skills</button>
+
+    <section class="card" id="skillsSection">
         <h2>Skills</h2>
 
         <ul>
@@ -57,6 +63,7 @@
             </li>
         </ul>
     </section>
+
     <section class="card">
         <h2>Education</h2>
 
@@ -93,22 +100,28 @@
             </tr>
         </table>
     </section>
+
     <section class="card">
         <h2>Contact Me</h2>
 
         <form>
-            <input type="text" placeholder="Name"><br><br>
-            <input type="email" placeholder="Email"><br><br>
+            
+            <input type="text" id="name" placeholder="Name"><br><br>
+            <input type="email" id="email" placeholder="Email"><br><br>
             <textarea placeholder="Message"></textarea><br><br>
-            <button type="submit">Send</button>
+
+            
+            <button type="submit" id="submitBtn">Send</button>
         </form>
     </section>
+
 </main>
 
 <footer>
     <p>&copy; 2026 Vanley John B. Monares. All rights reserved.</p>
 </footer>
 
-<!-- HTML Validated -->
+<script src="js/script.js"></script>
+
 </body>
 </html>
