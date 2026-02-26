@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14450b21-96aa-46ff-908a-9673cf7c917a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Images/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
       <recent name="C:\Users\eliez\Documents\firstrepo\personal-cv-react\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eliez\Documents\firstrepo\Images" />
       <recent name="C:\Users\eliez\Documents\firstrepo" />
       <recent name="C:\Users\eliez\Documents\firstrepo\Image" />
       <recent name="C:\Users\eliez\Documents\firstrepo\.github\workflows" />
