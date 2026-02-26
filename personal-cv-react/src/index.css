@@ -1,0 +1,40 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE BACKGROUND */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+
+  /* This centers your whole React app */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* ROOT CONTAINER (React mounts here) */
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+a:hover {
+  color: #005fa3;
+}
+
+/* BUTTON BASE STYLE (optional global style) */
+button {
+  font-family: inherit;
+}
