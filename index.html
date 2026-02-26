@@ -3,106 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Personal Online CV</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-<header>
-    <section>
+<div class="outer-box">
+
+    <header>
         <h1>Vanley John B. Monares</h1>
         <p>IT Student | Web Systems and Technologies</p>
-    </section>
-</header>
 
-<main>
+        <button id="themeToggle">Dark Mode</button>
+    </header>
 
-    <section>
-        <h2>About Me</h2>
+    <main class="container">
 
-        <img src="images/profile.jpg" alt="Profile photo" width="150">
+        <section class="box">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile photo" width="150">
 
-        <p>
-            I am a first-year BSIT student at USTP. I am passionate about web development
-            and learning how to build structured and user-friendly websites.
-        </p>
+            <p>I am a BSIT student at USTP who enjoys building clean and modern web layouts.</p>
 
-        <p>
-            Email:
-            <a href="mailto:vanley@email.com">vanley@email.com</a><br>
-            GitHub:
-            <a href="https://github.com" target="_blank">github.com</a>
-        </p>
-    </section>
+            <p>
+                Email: <a href="mailto:vanley@email.com">vanley@email.com</a><br>
+                GitHub: <a href="https://github.com" target="_blank">github.com</a>
+            </p>
+        </section>
 
-    <section>
-        <h2>Skills</h2>
+        <div class="skills-wrapper">
 
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+            <button id="toggleSkills">Hide Skills</button>
 
-        <ul>
-            <li>Web Development
+            <section class="box" id="skillsSection">
+                <h2>Skills</h2>
+
                 <ul>
-                    <li>Frontend
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+
+                <ul>
+                    <li>Web Development
                         <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
+                            <li>Frontend</li>
+                            <li>Backend</li>
                         </ul>
                     </li>
-                    <li>Backend</li>
                 </ul>
-            </li>
-        </ul>
 
-    </section>
+            </section>
 
-    <section>
-        <h2>Education</h2>
+        </div>
 
-        <table border="1">
-            <tr>
-                <th>Program</th>
-                <th>Institution</th>
-                <th>Year Graduated</th>
-            </tr>
-            <tr>
-                <td>BS Information Technology</td>
-                <td>USTP – CDO Campus</td>
-                <td>2028</td>
-            </tr>
-            <tr>
-                <td>Highschool</td>
-                <td>GCCNHS</td>
-                <td>2020-2021</td>
-            </tr>
-            <tr>
-                <td>Elementary</td>
-                <td>MLCS</td>
-                <td>2014-2015</td>
-            </tr>
-        </table>
-    </section>
+        <section class="box">
+            <h2>Education</h2>
 
-    <section>
-        <h2>Contact Me</h2>
+            <table>
+                <tr>
+                    <th>Program</th>
+                    <th>School</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>BS Information Technology</td>
+                    <td>USTP – CDO Campus</td>
+                    <td>2028</td>
+                </tr>
+                <tr>
+                    <td>High School</td>
+                    <td>GCCNHS</td>
+                    <td>2021–2022</td>
+                </tr>
+                <tr>
+                    <td>Elementary</td>
+                    <td>MLCS</td>
+                    <td>2013–2014</td>
+                </tr>
+            </table>
+        </section>
 
-        <form>
-            <input type="text" placeholder="Name"><br><br>
-            <input type="email" placeholder="Email"><br><br>
-            <textarea placeholder="Message"></textarea><br><br>
-            <button type="submit">Send</button>
-        </form>
+        <section class="box">
+            <h2>Contact Me</h2>
 
-    </section>
+            <form>
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit" id="submitBtn">Send</button>
+            </form>
 
-</main>
+        </section>
 
-<footer>
-    <p>&copy; 2026 Vanley John B. Monares. All rights reserved.</p>
-</footer>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vanley John B. Monares</p>
+    </footer>
+
+</div>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
