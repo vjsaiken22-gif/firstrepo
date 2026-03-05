@@ -1,7 +1,8 @@
+import Card from "./Card";
+
 function About() {
   return (
-    <section className="box">
-      <h2>About Me</h2>
+    <Card title="About Me">
 
       <img
         src={`${import.meta.env.BASE_URL}images/profile.jpg`}
@@ -17,7 +18,8 @@ function About() {
         Email: <a href="mailto:vanley@email.com">vanley@email.com</a><br />
         GitHub: <a href="https://github.com" target="_blank">github.com</a>
       </p>
-    </section>
+
+    </Card>
   );
 }
 

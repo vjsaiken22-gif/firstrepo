@@ -6,10 +6,12 @@ import Education from "./components/Education";
 import Contact from "./components/Contact";
 
 function App() {
+
   const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className={darkMode ? "dark-mode" : ""}>
+
       <div className="outer-box">
 
         <Header />
@@ -19,10 +21,12 @@ function App() {
         </button>
 
         <main className="container">
+
           <About />
           <Skills />
           <Education />
           <Contact />
+
         </main>
 
         <footer>
@@ -30,6 +34,7 @@ function App() {
         </footer>
 
       </div>
+
     </div>
   );
 }

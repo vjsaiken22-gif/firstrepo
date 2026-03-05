@@ -1,10 +1,12 @@
 import { useState } from "react";
+import Card from "./Card";
 
 function Skills() {
+
   const [visible, setVisible] = useState(true);
 
   return (
-    <section className="box">
+    <Card title="Skills">
 
       <button onClick={() => setVisible(!visible)}>
         {visible ? "Hide Skills" : "Show Skills"}
@@ -12,8 +14,6 @@ function Skills() {
 
       {visible && (
         <>
-          <h2>Skills</h2>
-
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -21,7 +21,8 @@ function Skills() {
           </ul>
 
           <ul>
-            <li>Web Development
+            <li>
+              Web Development
               <ul>
                 <li>Frontend</li>
                 <li>Backend</li>
@@ -31,7 +32,7 @@ function Skills() {
         </>
       )}
 
-    </section>
+    </Card>
   );
 }
 
