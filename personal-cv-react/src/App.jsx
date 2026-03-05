@@ -9,9 +9,17 @@ function App() {
 
   const [darkMode, setDarkMode] = useState(false);
 
+  const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Web Development",
+    "Frontend",
+    "Backend"
+  ];
+
   return (
     <div className={darkMode ? "dark-mode" : ""}>
-
       <div className="outer-box">
 
         <Header />
@@ -21,12 +29,10 @@ function App() {
         </button>
 
         <main className="container">
-
           <About />
-          <Skills />
+          <Skills skills={skills} />
           <Education />
           <Contact />
-
         </main>
 
         <footer>
@@ -34,7 +40,6 @@ function App() {
         </footer>
 
       </div>
-
     </div>
   );
 }
